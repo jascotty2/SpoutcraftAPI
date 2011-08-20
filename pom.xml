@@ -41,6 +41,17 @@
         <system>jenkins</system>
         <url>http://ci.getspout.org</url>
     </ciManagement>
+    
+    <!--  Dependency Information -->
+	<dependencies>
+		<dependency>
+			<groupId>org.yaml</groupId>
+			<artifactId>snakeyaml</artifactId>
+			<version>1.7</version>
+			<type>jar</type>
+			<scope>compile</scope>
+		</dependency>
+	</dependencies>
 
     <!-- Repository locations -->
     <repositories>
