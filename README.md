@@ -50,13 +50,13 @@ out of disdane for our project, or because of sheer laziness. Many people
 have made comments that we don't care out other client mods, but what they
 do not understand is that we really do. That is why we are creating this 
 client API. It will create a way that will prevent most if not all 
-incompatabilities. Modloader was ment to remove most, but its time for
+incompatibilities. Modloader was ment to remove most, but its time for
 one that allows easy "modding" to the client and a way to easily use that
 mod on a multiplayer server. Many servers had to choose between the benefits
 of a CraftBukkit server and new blocks/items/mobs for modded vanilla server as
 Modloader MP was incompatible with craftbukkit. The feedback that we have 
-received from some client modders has been very dissapointing. They believe 
-since we do support Modloader and believe that its usefullness is starting 
+received from some client modders has been very disappointing. They believe 
+since we do support Modloader and believe that its usefulness is starting 
 to fade, that we do not care about them and are arrogant. This is incorrect.
 As I stated above , we do care about other client mods. I believe that they
 have this opinion because they are nervous about change. Again I want to
