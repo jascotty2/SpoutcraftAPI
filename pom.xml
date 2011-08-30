@@ -58,7 +58,7 @@
             <version>1.9</version>
             <type>jar</type>
             <scope>provided</scope>
-        <dependency>
+        </dependency>
     </dependencies>
 
     <build>
