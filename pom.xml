@@ -57,7 +57,7 @@
             <artifactId>snakeyaml</artifactId>
             <version>1.9</version>
             <type>jar</type>
-            <scope>provided</scope>
+            <scope>bundled</scope>
         </dependency>
     </dependencies>
 
@@ -68,7 +68,7 @@
             <resource>
                 <targetPath>.</targetPath>
                 <filtering>true</filtering>
-                <directory>${basedir}/src</directory>
+                <directory>${basedir}</directory>
                 <includes>
                     <include>LICENSE.txt</include>
                 </includes>
