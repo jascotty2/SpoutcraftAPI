@@ -57,18 +57,19 @@
             <artifactId>snakeyaml</artifactId>
             <version>1.9</version>
             <type>jar</type>
-            <scope>provided</scope>
+            <scope>compile</scope>
         </dependency>
     </dependencies>
 
     <build>
+        <defaultGoal>clean install</defaultGoal>
         <sourceDirectory>${basedir}/src</sourceDirectory>
         <!-- Resources -->
         <resources>
             <resource>
                 <targetPath>.</targetPath>
                 <filtering>true</filtering>
-                <directory>${basedir}/src</directory>
+                <directory>${basedir}</directory>
                 <includes>
                     <include>LICENSE.txt</include>
                 </includes>
@@ -99,6 +100,13 @@
                         <goals>
                             <goal>shade</goal>
                         </goals>
+                        <configuration>
+                            <artifactSet>
+                                <includes>
+                                    <include>org.yaml:snakeyaml</include>
+                                </includes>
+                            </artifactSet>
+                        </configuration>
                     </execution>
                 </executions>
             </plugin>

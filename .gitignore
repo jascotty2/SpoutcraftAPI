@@ -43,6 +43,3 @@ Thumbs.db
 #################
 .classpath
 .project
-.settings
-MANIFEST.MF
-src/test/
