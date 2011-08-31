@@ -10,7 +10,7 @@
 
     <!-- Project information -->
     <groupId>org.spoutcraft</groupId>
-    <artifactId>api</artifactId>
+    <artifactId>spoutcraftapi</artifactId>
     <version>dev-SNAPSHOT</version>
     <name>SpoutcraftAPI</name>
     <url>http://www.spoutcraft.org</url>
