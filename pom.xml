@@ -60,9 +60,9 @@
             <scope>compile</scope>
         </dependency>
         <dependency>
-        	<groupId>org.apache.commons</groupId>
-        	<artifactId>commons-lang3</artifactId>
-        	<version>3.0.1</version>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.0.1</version>
         </dependency>
     </dependencies>
 
@@ -109,6 +109,7 @@
                             <artifactSet>
                                 <includes>
                                     <include>org.yaml:snakeyaml</include>
+                                    <include>org.apache.commons:commons-lang3</include>
                                 </includes>
                             </artifactSet>
                         </configuration>
