@@ -48,6 +48,10 @@
             <id>spout-repo</id>
             <url>http://repo.getspout.org</url>
         </repository>
+        <repository>
+            <id>lwjgl-repo</id>
+            <url>http://adterrasperaspera.com/lwjgl</url>
+        </repository>
     </repositories>
 
     <!--  Dependency Information -->
@@ -63,6 +67,15 @@
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
             <version>3.0.1</version>
+            <type>jar</type>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.lwjgl</groupId>
+            <artifactId>lwjgl</artifactId>
+            <version>2.6</version>
+            <type>jar</type>
+            <scope>provided</scope>
         </dependency>
     </dependencies>
 
