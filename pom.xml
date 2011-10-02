@@ -48,6 +48,10 @@
             <id>spout-repo</id>
             <url>http://repo.getspout.org</url>
         </repository>
+         <repository>
+            <id>craftfire-dbrepo</id>
+            <url>http://dbrepo.craftfire.com/repo</url>
+        </repository>
         <repository>
             <id>lwjgl-repo</id>
             <url>http://adterrasperaspera.com/lwjgl</url>
@@ -85,7 +89,7 @@
         <dependency>
             <groupId>trove</groupId>
             <artifactId>trove</artifactId>
-            <version>2.1.1</version>
+            <version>3.0.0</version>
             <type>jar</type>
             <scope>compile</scope>
         </dependency>
