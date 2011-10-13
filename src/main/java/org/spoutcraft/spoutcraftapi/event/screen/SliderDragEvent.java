@@ -30,7 +30,7 @@ public class SliderDragEvent extends ScreenEvent<SliderDragEvent> {
 		super(player, screen, ScreenType.CUSTOM_SCREEN);
 		this.slider = slider;
 		this.position = position;
-		this.old = slider.getSliderPosition();
+		this.old = slider == null ? 0 : slider.getSliderPosition();
 	}
 	
 	private static final SliderDragEvent instance = new SliderDragEvent(null, null, null, 0);
